@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Notable: 100,200,300,400,500,600,700 |Roboto: 100,200,300,400,500,600,700');
+
 /* ----------------------------------------------------Colours*/
+
+#bootstrap-override-body {
+    font-family: "Notable",sans-serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: crimson;
+    background-color: #646464;
+}
+
 
 .bg-color-name-title {
     background-color: #800000;
 }
 
-.container-fluid{
-    background-color: #646464;
+.logo {
+    background: url("./images/monkeeslogo.png");
+}
+
+body {
+    font-family: "Notable", sans-serif;
 }
