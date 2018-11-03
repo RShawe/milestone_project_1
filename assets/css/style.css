@@ -1,13 +1,59 @@
-body {
-   padding-top: 100px;
-   background:#000000;
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
+
+/*-------------------------------------------Header*/
+
+.navbar {
+    font-family: "Spicy Rice", cursive;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 40px;
 }
 
-.latest-news{
-    padding-top: 20px;
+/*-------------------------------------------Sections*/
+
+body {
+    padding-top: 100px;
+    background: #000000;
 }
-    
+
+
+.latest-news {
+    padding-top: 20px;
+    width: 960px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+img {}
+
+.date {
+    color: #cccccc;
+}
+
+.news-img {
+    float: left;
+    display: inline;
+}
+
+.news-item-1,
+.news-item-2,
+.news-item-3 {
+    display: block;
+    position: relative;
+    clear: both;
+    padding: 20px 20px 20px 0px;
+    border-bottom: 1px solid #fff;
+}
+
+/*-------------------------------------------Footer*/
