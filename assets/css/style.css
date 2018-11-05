@@ -56,6 +56,15 @@ p {
     border-bottom: 1px solid #fff;
 }
 
+/*-------------------------------------------Gallery*/
+
+.photo-gallery{
+    width: 100%;
+    padding: 20px;
+    text-align:center;
+    
+}
+
 /*-------------------------------------------Footer*/
 .social-links li a i {
     width: 32px;

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
 </head>
@@ -42,19 +42,55 @@
         </div>
     </header>
 
-    <section>
-        <a href="album.jpg" data-fancybox data-caption="Caption for single image">
-	        <img src="milestone_project_1/assets/images/album.jpg" alt="" />
-        </a>
-        <a href="album2.jpg" data-fancybox data-caption="Caption for single image">
-	        <img src="assets/images/album2.jpg" alt="" />
-        </a>
-        <a href="band.jpg" data-fancybox data-caption="Caption for single image">
-	        <img src="assets/images/band.jpg" alt="" />
-        </a>
-        <a href="cover.jpg" data-fancybox data-caption="Caption for single image">
-	        <img src="assets/images/cover.jpg" alt="" />
-        </a>
+    <section class="container-fluid photo-gallery">
+        <h1>Gallery</h1>
+
+        <p class="imglist" style="max-width: 1000px;">
+            <a href="album.jpg" data-fancybox="images">
+    <img src="assets/images/album.jpg" alt="" width="300" height="300"/>
+  </a>
+
+            <a href="album2.jpg" data-fancybox="images">
+    <img src="assets/images/album2.jpg" alt="" width="300" height="300"/>
+  </a>
+
+            <a href="cover.jpg" data-fancybox="images">
+    <img src="assets/images/cover.jpg"  alt="" width="300" height="300"/>
+  </a>
+
+            <a href="cover1.jpg" data-fancybox="images">
+    <img src="assets/images/cover1.jpg"  alt="" width="300" height="300"/>
+  </a>
+
+            <a href="cover2.png" data-fancybox="images">
+    <img src="assets/images/cover2.png"  alt="" width="300" height="300"/>
+  </a>
+
+            <a href="cover3.jpg" data-fancybox="images">
+    <img src="assets/images/cover3.jpg"  alt="" width="300" height="300"/>
+  </a>
+
+            <a href="dj.jpg" data-fancybox="images">
+    <img src="assets/images/dj.jpg"  alt="" width="300" height="300"/>
+  </a>
+
+            <a href="md.jpg" data-fancybox="images">
+    <img src="assets/images/md.jpg"  alt="" width="300" height="300"/>
+  </a>
+
+            <a href="mn.jpg" data-fancybox="images">
+    <img src="assets/images/mn.jpg"  alt="" width="300" height="300"/>
+  </a>
+
+            <a href="pt.jpg" data-fancybox="images">
+    <img src="assets/images/pt.jpg"  alt="" width="300" height="300"/>
+  </a>
+            <a href="monkees.jpg" data-fancybox="images">
+    <img src="assets/images/monkees.jpg"  alt="" width="300" height="300"/>
+  </a>
+        </p>
+
+
 
     </section>
 
@@ -70,9 +106,11 @@
         </div>
     </footer>
 
+    
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+    <script src="assets/js/fancybox.js"></script>
 
-    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="jquery.fancybox.min.js"></script>
 </body>
 
 
