@@ -29,11 +29,14 @@ p {
     color: #ffffff;
 }
 
+
+/*-------------------------------------------Index*/
+
 .latest-news {
     padding-top: 20px;
     width: 960px;
     font-family: "Spicy Rice", cursive;
-    
+
 }
 
 
@@ -56,16 +59,34 @@ p {
     border-bottom: 1px solid #fff;
 }
 
-/*-------------------------------------------Gallery*/
+/*-------------------------------------------Tour Dates*/
 
-.photo-gallery{
-    width: 100%;
-    padding: 20px;
-    text-align:center;
-    
+.tour-detail-block {
+    text-align: left;
 }
 
+.tour-detail-block-date,
+.tour-detail-block-location {
+    display: inline-block;
+}
+
+.tour-detail-block-date {
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+/*-------------------------------------------Gallery*/
+
+.photo-gallery {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+
 /*-------------------------------------------Footer*/
+
 .social-links li a i {
     width: 32px;
     height: 32px;
