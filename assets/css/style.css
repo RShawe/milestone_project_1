@@ -47,6 +47,8 @@ p {
 .news-img {
     float: left;
     display: inline;
+    width: 260px;
+    height: 170px;
 }
 
 .news-item-1,
@@ -61,27 +63,18 @@ p {
 
 /*-------------------------------------------Tour Dates*/
 
-.tour-detail-block {
-    text-align: left;
+
+
+/*-------------------------------------------Music & Video*/
+
+#player {
+    width: 100%;
 }
 
-.tour-detail-block-date,
-.tour-detail-block-location {
-    display: inline-block;
+
+.card {
+    margin: 30px;
 }
-
-.tour-detail-block-date {
-    margin-top: 5px;
-    padding: 10px;
-
-}
-
-/*-------------------------------------------Music*/
-
-#player{
-    width:100%;
-}
-
 
 /*-------------------------------------------Gallery*/
 
@@ -93,16 +86,38 @@ p {
 
 /*-------------------------------------------Events*/
 
+body,
+html {
+    height: 100%;
+}
 
+.bg-img {
+    background: url(assets/images/monkees.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+}
 
+.form1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
 
 /*-------------------------------------------Footer*/
+
+footer {
+    text-align: center;
+}
 
 .social-links ul li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 7px;
     text-align: center;
     transition: all 0.35s ease-in-out;
@@ -111,6 +126,12 @@ p {
     -o-transition: all 0.35s ease-in-out;
 }
 
-ul li{
+ul li {
     display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.fa{
+    font-size: large;
 }
